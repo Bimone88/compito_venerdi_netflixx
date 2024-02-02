@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap";
 import netflixLogo from "./netflix_logo.png";
 import kidsIcon from "./kids_icon.png";
-
+import profilePage from "./One-Piece-PNG-HD-Image.png";
 const CustomNavbar = () => {
   return (
     <Navbar bg="black" variant="dark" expand="lg" className="mx-5">
@@ -43,13 +43,7 @@ const CustomNavbar = () => {
           </Nav.Link>
           <NavDropdown
             title={
-              <img
-                src="./avatar.png"
-                alt="User Avatar"
-                width="30"
-                height="30"
-                className="rounded-circle"
-              />
+              <img src={profilePage} alt="User Avatar" width="30" height="30" />
             }
             id="navbarScrollingDropdown"
           >
